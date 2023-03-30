@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToUpperCase</title>
+</head>
+<body>
+    <label for="texto">Escribe un texto</label>
+    <input type="text" id="texto">
+    <p id="parrafo"></p>
+    <p id="parrafo2"></p>
+    <button id="btn">Convertir a mayúsculas</button>
+    <script>
+        let input = document.querySelector("#texto")
+        let parrafo = document.getElementById("parrafo")
+        input.addEventListener("input", function(){
+            let textoMayus = input.value.toUpperCase()
+            parrafo.textContent = textoMayus
+        })
+        let btn = document.querySelector("#btn")
+        let parrafo2 = document.querySelector("#parrafo2")
+        btn.addEventListener("click", function(){
+            let parrafo2Mayus = input.value.toUpperCase()
+            parrafo2.textContent = parrafo2Mayus
+        })
+    </script>
+</body>
+</html>
