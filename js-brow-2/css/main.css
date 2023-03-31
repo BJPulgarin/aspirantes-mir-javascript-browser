@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+#noTasks{
+    text-align: center;
+}
+
+#task, #submit{
+    padding: 5px;
+    border-color: white;
+}
+
+#deleteAll{
+    margin: 0 auto;
+}
+
+#container{
+    display: table;
+    margin: 0 auto;
+    background-image: linear-gradient(180deg, #7d4159 0, #773959 12.5%, #6f3159 25%, #652859 37.5%, #591f59 50%, #4b185a 62.5%, #3a135b 75%, #24125d 87.5%, #00125f 100%);
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    min-width: 300px;
+}
+
+form {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+ul{
+    list-style-type : none;
+    padding-left: 0;
+}
+
+li{
+    padding: 5px;
+    border-bottom: 1px groove;
+}
+
+.checked{
+    text-decoration: line-through 2px;
+}
+
+.deleteBtn{
+    height: 17px;
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+}
+
+.inputs{
+    position: absolute;
+    right: 40px;
+    margin-left: 10px;
+    display: inline-block;
+}

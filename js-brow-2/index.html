@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <section id="container">
+        <form id="newTask">
+            <input type="text" placeholder="Add new task..." id="task" required>
+            <button type="submit" id="submit">Add</button>
+        </form>
+        <div id="tasks">
+            <ul id="list">
+            </ul>
+        </div>
+        <p id="noTasks">There are no tasks yet. <br>
+            Try adding one now!</p>
+        <button id="deleteAll">Delete completed tasks</button>
+    </section>
+    <script src="./js/index.js"></script>
+</body>
+</html>
